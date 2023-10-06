@@ -6,6 +6,28 @@
 body{
     background-color: #338cf4;
 }
+.hover-effect{
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    transition: font-size 0.3s;
+    /* font-weight: 440px; */
+    /* color: linear(20 20 0 #020929); */ 
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding: auto;
+    z-index: 9999;
+}
+.hover-effect:hover{
+    cursor:pointer;
+    /* font-weight: 800px; */
+    font-size: 60px;
+
+    color: linear-gradient(blue) ;
+}
 .container{
     background-color: #ffffff;
     width: 90vmin;
